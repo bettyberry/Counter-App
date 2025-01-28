@@ -1,0 +1,68 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.counter-card {
+  padding: 30px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  text-align: center;
+}
+
+.counter-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px; /* Increased size */
+  height: 120px; /* Increased size */
+  margin: 20px auto;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  border: 2px solid #bbb;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.increment-btn,
+.decrement-btn,
+.reset-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 30px; /* Increased padding for larger buttons */
+  font-size: 1.2rem; /* Increased font size */
+  margin-right: 25px;
+  border-radius: 8px; /* Slightly larger border radius */
+  transition: all 0.3s ease;
+}
+
+.increment-btn {
+  background-color: green;
+}
+
+.decrement-btn {
+  background-color: red;
+}
+
+.reset-btn {
+  background-color: grey;
+}
+
+.increment-btn:hover {
+  background-color: darkgreen;
+}
+
+.decrement-btn:hover {
+  background-color: darkred;
+}
+
+.reset-btn:hover {
+  background-color: darkgrey;
+}
